@@ -24,7 +24,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class AnalyticsWebhooksMixpanelCohortTest extends base {
 
-    //---------------------------------- GET THE TEST DATA FOR VALID TOKEN--------------------------------------------//
 
     @DataProvider(name = "analytics_webhooks_mixpanel_cohort_with_valid_token")
     public Object[][] data_provider() {
